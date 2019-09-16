@@ -1,0 +1,81 @@
+#include <stdio.h>
+
+int main(void)
+{
+
+//Problem 1
+
+
+       int useranswer_a; //user enters the answer
+       int answerfeedback_a; // 
+       int correctanswer_a;
+
+       printf("Welcome to Bo's Math Lab!\n\n");
+       printf("Let's warm up with a few examples before we dive deeper into a more complex discussion about linear functions.\n\n");
+
+       printf("Harmony bought a bag of apples for her son Elijah. If there are seven apples in the bag and Elijah is only allowed to eat one apple a day per week, how many days will it take Elijah to finish the bag of apples?");
+       printf("\n\nEnter answer using only whole numbers\n\n");
+
+       //get input from the user
+       scanf("%d", &useranswer_a);
+       printf("\n");
+
+       answerfeedback_a = 1 * useranswer_a;
+       correctanswer_a = 1 * 7;
+
+       printf("If you answered %d, that's correct! Great job! If you didn't, don't feel bad! Try working out this problem with a tutor to see if they can help you solve it! (Your answer, %d, written in decimal format, octal format and hexadeciaml format is %d,%o and %x respectively.) \n\n", correctanswer_a, answerfeedback_a, answerfeedback_a, answerfeedback_a, answerfeedback_a);
+
+
+       printf("To continue, Press Enter\n");
+
+
+       //to pause and prevent program from continuing if user enters a value with characters attached 
+       getchar();
+       getchar();
+
+
+
+       float useranswer_b;
+       float answerfeedback_b;
+       float correctanswer_b;
+
+       printf("Ezra inherited $31026.50 from his grandfathers life insurance policy. Ezra is now 18 and plans to go to college for computer science. The tuition and fees including the cost of room and board books and meal plan is estimated to be $21011.25 for the first year of his attendance. If Ezra decides to attend college and pay for it with his inherited money, how much will Ezra have after completing his first year of school?\n\n");
+       printf("Round your answer to the nearest two decimal places\n\n");
+
+       scanf("%f", &useranswer_b);
+       printf("\n");
+
+       answerfeedback_b = 1 * useranswer_b;
+       correctanswer_b = 31026.50 - 21011.25;
+
+       printf("If you answered %.2f, that's correct! Great work! (Your answer, %.2f, written in scientific notation and exponential notation is 1.001525x10^4 and %e respectively.) \n\n", answerfeedback_b, answerfeedback_b, answerfeedback_b);
+
+       printf("To continue, Press Enter\n");
+
+
+       //to pause and prevent program from continuing if user enters a value with characters attached 
+       getchar();
+       getchar();
+
+
+       char useranswer_c;
+
+       printf("Did you know that behind every letter in the alphabet is a numeric code that a computer reads to generate that character letter on your screen? If that didn't make sense, no worries! we'll get into that later in the chapter. For now let's have some fun and see how the first letter of your name translates to a computer.\n\n");
+       printf("Enter the first letter of your name\n\n");
+
+       scanf("%c", &useranswer_c);
+       printf("\n");
+
+       printf("The code for the first letter of your name, %c,is %d!\n\n", useranswer_c, useranswer_c);
+       
+
+//Problem 2
+      
+       printf("First programming assignment by TonyBo Bello!");
+
+       return 0;
+}
+
+
+
+
